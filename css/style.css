@@ -1,0 +1,46 @@
+/* LINK com o Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+/*seletor=elemento será formatado 
+proprieda - o que queremos mudar bo seletor
+valor=como essa propriedade deve ficar=Regra CSS*/
+
+h1 {
+  color: rgb(46, 43, 233);
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+figure {
+  text-align: center;
+}
+
+p,
+figcaption {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+figcaption {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #900;
+}
+
+a:hover {
+  color: #000;
+}
+
+img {
+  /* tamanho imagem */
+  width: 300px;
+  height: 200px;
+}
